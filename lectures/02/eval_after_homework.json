@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.8571428571428571,
+    "both_rate": 0.8571428571428571,
+    "seconds": 50.5
+  },
+  "rows": [
+    {
+      "question": "モーターの出力制限モードへの移行条件を教えて",
+      "raw": "{\"answer\": \"バッテリーを保護するため、内部の電池セル温度が60℃を超えた場合、車両のモーター出力制限モードに移行します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "温度上昇時のモーター出力制限について教えてください",
+      "raw": "{\"answer\": \"バッテリーを保護するため、内部の電池セル温度が60℃を超えた場合、車両のモーター出力制限モードに移行します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "セル温度が60度を超えた場合の車両の挙動は？",
+      "raw": "{\"answer\": \"バッテリーを保護するため、内部の電池セル温度が60℃を超えた場合、車両のモーター出力制限モードに移行します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "電源を切ってから何時間でSOC初期化されますか",
+      "raw": "{\"answer\": \"バッテリーの充電状態（SOC）の初期化は、車両の電源（イグニッション）をOFFにしてから4時間が経過していることが条件です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "バッテリー充電状態（SOC）の初期化判定ロジックを教えてください",
+      "raw": "{\"answer\": \"バッテリーの充電状態（SOC）の初期化は、車両の電源（イグニッション）をOFFにしてから4時間が経過していることが条件です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "イグニッションを切ってからSOCがリセットされるまでの時間は？",
+      "raw": "{\"answer\": \"バッテリーの充電状態（SOC）の初期化は、車両の電源（イグニッション）をOFFにしてから4時間が経過していることが条件です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "電圧のばらつき異常の条件は？",
+      "raw": "{\"answer\": \"電池セル間の電圧ばらつき（アンバランス）異常は、最も電圧が高いセルと最も低いセルの電圧差が300mV以上になった場合に検知します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "セル電圧のばらつきを異常と判定する電圧差は何mVですか",
+      "raw": "{\"answer\": \"電池セル間の電圧ばらつき（アンバランス）異常は、最も電圧が高いセルと最も低いセルの電圧差が300mV以上になった場合に検知します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "最も高いセルと低いセルの差分異常について教えてください",
+      "raw": "{\"answer\": \"電池セル間の電圧ばらつき（アンバランス）異常は、最も電圧が高いセルと最も低いセルの電圧差が300mV以上になった場合に検知します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "劣化度の更新領域について教えてください",
+      "raw": "{\"answer\": \"バッテリーの劣化具合（SOH）の推定値は、一定の電流で充電を行っている際の中間電圧領域において更新されます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "SOH（劣化具合）が再計算される電圧領域を教えてください",
+      "raw": "{\"answer\": \"バッテリーの劣化具合（SOH）の推定値は、一定の電流で充電を行っている際の中間電圧領域において更新されます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "定電流充電中の劣化度更新条件は？",
+      "raw": "{\"answer\": \"バッテリーの劣化具合（SOH）の推定値は、一定の電流で充電を行っている際の中間電圧領域において更新されます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "充電要求が停止するのはどんな時ですか",
+      "raw": "{\"answer\": \"バッテリーの過充電を防ぐため、システム全体の電圧が上限値に達した場合、即座に充電要求を停止します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "過充電を防ぐためにシステム電圧が上限に達した際の挙動は？",
+      "raw": "{\"answer\": \"バッテリーの過充電を防ぐため、システム全体の電圧が上限値に達した場合、即座に充電要求を停止します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "電圧上限到達時の充電要求の停止条件を教えてください",
+      "raw": "{\"answer\": \"バッテリーの過充電を防ぐため、システム全体の電圧が上限値に達した場合、即座に充電要求を停止します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "エアコン使用時のバッテリー消費量はどのくらいですか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "タイヤの適正空気圧を教えてください",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "12V補機バッテリーの交換手順を教えてください",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "回生ブレーキの効き具合を調整できますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ナビゲーション画面の再起動方法を教えてください",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "リモコンキーの電池切れ時の対応は？",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    }
+  ]
+}

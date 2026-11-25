@@ -1,13 +1,13 @@
 {
   "mcpServers": {
     "glossary": {
-      "command": "uv",
-      "args": [
-        "run",
-        "python",
-        "-m",
-        "app.mcp_server"
-      ]
-    }
+       "command": "uv",
+  "args": ["run", "python", "-m", "app.mcp_server"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "aws": {"url": "https://knowledge-mcp.global.api.aws"}
   }
 }
